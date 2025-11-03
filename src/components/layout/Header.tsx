@@ -1,3 +1,5 @@
+import {AuthButton} from "@/components/AuthButton.tsx";
+
 const Header =() => {
     return (
         <>
@@ -7,7 +9,8 @@ const Header =() => {
                         src="https://codingfactory.aueb.gr/sites/all/themes/cf_theme/logo.png"
                         alt="CF Logo"/>
                     <nav className="flex gap-4 text-white font-medium">
-                        <a href="#">Home</a>
+                        {/*<a href="#">Home</a>*/}
+                        <AuthButton/>
                     </nav>
                 </div>
             </header>
